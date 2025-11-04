@@ -541,6 +541,12 @@ body {
     object-fit: cover;
     border: 1px solid var(--border-color);
     transition: var(--transition);
+    display: block;
+}
+
+.tab-gallery img[src=""],
+.tab-gallery img:not([src]) {
+    display: none;
 }
 
 .tab-gallery img:hover {

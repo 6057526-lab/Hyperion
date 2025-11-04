@@ -85,7 +85,13 @@ function updateLanguage(lang) {
 }
 
 // Initialize language on page load
-updateLanguage(currentLang);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        updateLanguage(currentLang);
+    });
+} else {
+    updateLanguage(currentLang);
+}
 
 // Language switcher event listeners
 document.querySelectorAll('.lang-btn').forEach(btn => {
