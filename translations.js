@@ -10,14 +10,14 @@ const translations = {
         },
         hero: {
             title: "РњР« РџР Р•Р”РћРЎРўРђР’Р›РЇР•Рњ Р’Р•Р”РЈР©РР• РўР•РҐРќРћР›РћР“РР Р’ РћР‘Р›РђРЎРўР РњРђР“РќРРЇ, РўРРўРђРќРђ Р РђР›Р®РњРРќРРЇ.",
-            learnMore: "РЈР—РќРђРўР¬ Р‘РћР›Р¬РЁР•"
+            learnMore: "УЗНАТЬ БОЛЬШЕ"
         },
         marketsegments: {
-            title: "Р Р«РќРћР§РќР«Р• РЎР•Р“РњР•РќРўР«",
+            title: "РЫНОЧНЫЕ СЕГМЕНТЫ",
             subtitle: "РџР Р•Р”РћРЎРўРђР’Р›Р•РќРР• РЈР›Р¬РўР РђР›Р•Р“РљРРҐ РљРћРњРџРћРќР•РќРўРћР’ РќРђРЁРРњ РљР›РР•РќРўРђРњ РџРћ Р’РЎР•РњРЈ РњРР РЈ.",
             automotive: "РђР’РўРћРњРћР‘РР›Р¬РќРђРЇ РџР РћРњР«РЁР›Р•РќРќРћРЎРўР¬",
             aerospace: "РђР­Р РћРљРћРЎРњРР§Р•РЎРљРђРЇ РћРўР РђРЎР›Р¬",
-            industrial: "РџР РћРњР«РЁР›Р•РќРќРћРЎРўР¬",
+            industrial: "ПРОМЫШЛЕННОСТЬ",
             sports: "РЎРџРћР РўРР’РќРђРЇ РРќР”РЈРЎРўР РРЇ",
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
@@ -36,8 +36,8 @@ const translations = {
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
             rawMaterial: "Raw Material",
             rawMaterialText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            forging: "РљРѕРІРєР°",
-            extrusion: "Р­РєСЃС‚СЂСѓР·РёСЏ",
+            forging: "Ковка",
+            extrusion: "Экструзия",
             extrusionText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             forgingText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
@@ -52,14 +52,14 @@ const translations = {
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             contactTitle: "РњР« Р‘РЈР”Р•Рњ Р РђР”Р« РЎР’РЇР—РђРўР¬РЎРЇ РЎ Р’РђРњР.",
-            general: "РћР±С‰РёРµ РІРѕРїСЂРѕСЃС‹:",
-            sales: "РџСЂРѕРґР°Р¶Рё:",
-            career: "РљР°СЂСЊРµСЂР°:",
-            press: "РџСЂРµСЃСЃР°:",
-            phone: "РўРµР»РµС„РѕРЅ:",
-            munich: "РњР®РќРҐР•Рќ",
+            general: "Общие вопросы:",
+            sales: "Продажи:",
+            career: "Карьера:",
+            press: "Пресса:",
+            phone: "Телефон:",
+            munich: "МЮНХЕН",
             email: "Email:",
-            officePhone: "РўРµР»РµС„РѕРЅ:"
+            officePhone: "Телефон:"
         },
         footer: {
             imprint: "Оттиск",
