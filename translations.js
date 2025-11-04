@@ -1,4 +1,4 @@
-﻿const translations = {
+const translations = {
     ru: {
         nav: {
             marketsegments: "Р С‹РЅРѕС‡РЅС‹Рµ СЃРµРіРјРµРЅС‚С‹",
