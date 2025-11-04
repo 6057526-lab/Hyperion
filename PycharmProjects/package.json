@@ -1,0 +1,19 @@
+{
+  "name": "metalrealm",
+  "version": "1.0.0",
+  "description": "Multilingual SMW-inspired website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 3000"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "multilingual"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
