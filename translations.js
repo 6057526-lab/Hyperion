@@ -22,7 +22,7 @@ const translations = {
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
         lifecycle: {
-            title: "РџРћР›РќР«Р™ Р–РР—РќР•РќРќР«Р™ Р¦РРљР› РџР РћР”РЈРљРўРђ",
+            title: "ПОЛНЫЙ ЖИЗНЕННЫЙ ЦИКЛ ПРОДУКТА",
             subtitle: "УСТОЙЧИВОЕ СОЗДАНИЕ ЦЕННОСТИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             research: "ИССЛЕДОВАНИЯ И РАЗРАБОТКИ",
@@ -31,7 +31,7 @@ const translations = {
             engineeringText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         capabilities: {
-            title: "Р’РћР—РњРћР–РќРћРЎРўР",
+            title: "ВОЗМОЖНОСТИ",
             subtitle: "ПЕРЕДОВЫЕ МАТЕРИАЛЫ И ТЕХНОЛОГИИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
             rawMaterial: "СЫРЬЕ",
@@ -42,12 +42,12 @@ const translations = {
             forgingText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         wheels: {
-            title: "РљРћР’РђРќР«Р• РђР›Р®РњРРќРР•Р’Р«Р• Р РњРђР“РќРР•Р’Р«Р• РљРћР›Р•РЎРђ",
+            title: "КОВАНЫЕ АЛЮМИНИЕВЫЕ И МАГНИЕВЫЕ КОЛЕСА",
             subtitle: "КОМПОНЕНТЫ МИРОВОГО УРОВНЯ ДЛЯ ИННОВАТОРОВ ОТРАСЛИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         },
         company: {
-            title: "Рћ РљРћРњРџРђРќРР",
+            title: "О КОМПАНИИ",
             subtitle: "ЛИДЕР РЫНКА, ПЕРЕОСМЫСЛЕННЫЙ",
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
