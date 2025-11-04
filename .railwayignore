@@ -1,0 +1,10 @@
+PycharmProjects/
+*.log
+.cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+*.tmp
+*.temp

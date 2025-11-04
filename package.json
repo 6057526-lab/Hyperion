@@ -4,7 +4,7 @@
   "description": "Multilingual SMW-inspired website",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -l 3000"
+    "start": "serve -s . -l ${PORT:-3000}"
   },
   "keywords": [
     "static",
@@ -15,5 +15,8 @@
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
   }
 }
