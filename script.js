@@ -22,6 +22,12 @@ function updateLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('language', lang);
     
+    // Update page title
+    const pageTitle = getTranslation('pageTitle', lang);
+    if (pageTitle) {
+        document.title = pageTitle;
+    }
+    
     // Update all elements with data-translate attribute
     document.querySelectorAll('[data-translate]').forEach(element => {
         const key = element.getAttribute('data-translate');
@@ -33,6 +39,24 @@ function updateLanguage(lang) {
             element.alt = translation;
         } else {
             element.textContent = translation;
+        }
+    });
+    
+    // Update all elements with data-translate-aria attribute
+    document.querySelectorAll('[data-translate-aria]').forEach(element => {
+        const key = element.getAttribute('data-translate-aria');
+        const translation = getTranslation(key, lang);
+        if (translation) {
+            element.setAttribute('aria-label', translation);
+        }
+    });
+    
+    // Update all elements with data-translate-alt attribute
+    document.querySelectorAll('[data-translate-alt]').forEach(element => {
+        const key = element.getAttribute('data-translate-alt');
+        const translation = getTranslation(key, lang);
+        if (translation) {
+            element.setAttribute('alt', translation);
         }
     });
     
@@ -49,6 +73,15 @@ function updateLanguage(lang) {
     
     // Update document language attribute
     document.documentElement.lang = lang;
+    
+    // Update carousel pagination aria-labels if carousel exists
+    const paginationDots = document.querySelectorAll('.swiper-pagination button');
+    paginationDots.forEach((dot, index) => {
+        const goToSlide = getTranslation('ariaLabels.goToSlide', lang);
+        if (goToSlide) {
+            dot.setAttribute('aria-label', `${goToSlide} ${index + 1}`);
+        }
+    });
 }
 
 // Initialize language on page load
@@ -96,7 +129,8 @@ class SimpleCarousel {
             this.slides.forEach((_, index) => {
                 const dot = document.createElement('button');
                 dot.className = index === 0 ? 'active' : '';
-                dot.setAttribute('aria-label', `Перейти к слайду ${index + 1}`);
+                const goToSlide = getTranslation('ariaLabels.goToSlide', currentLang);
+                dot.setAttribute('aria-label', `${goToSlide} ${index + 1}`);
                 dot.addEventListener('click', () => this.goToSlide(index));
                 this.pagination.appendChild(dot);
             });

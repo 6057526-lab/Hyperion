@@ -63,6 +63,39 @@ const translations = {
         footer: {
             imprint: "Оттиск",
             legal: "Правовая оговорка"
+        },
+        pageTitle: "SMW - Ведущие технологии в области магния, титана и алюминия",
+        skipLink: "Перейти к содержанию",
+        ariaLabels: {
+            languageSwitcher: "Выбор языка",
+            mainMenu: "Главное меню",
+            heroSlider: "Главный слайдер",
+            prevSlide: "Предыдущий слайд",
+            nextSlide: "Следующий слайд",
+            toggleMenu: "Переключить меню",
+            footerMenu: "Нижнее меню",
+            linkedIn: "LinkedIn",
+            goToSlide: "Перейти к слайду"
+        },
+        altTexts: {
+            logo: "SMW Logo",
+            automotive: "Автомобильная промышленность",
+            aerospace: "Аэрокосмическая отрасль",
+            industrial: "Промышленность",
+            sports: "Спортивная индустрия",
+            rawMaterial1: "Сырье 1",
+            rawMaterial2: "Сырье 2",
+            rawMaterial3: "Сырье 3",
+            rawMaterial4: "Сырье 4",
+            forging1: "Ковка 1",
+            forging2: "Ковка 2",
+            forging3: "Ковка 3",
+            forging4: "Ковка 4",
+            extrusion1: "Экструзия 1",
+            extrusion2: "Экструзия 2",
+            extrusion3: "Экструзия 3",
+            extrusion4: "Экструзия 4",
+            munich: "Мюнхен"
         }
     },
     en: {
@@ -129,6 +162,39 @@ const translations = {
         footer: {
             imprint: "Imprint",
             legal: "Legal disclaimer"
+        },
+        pageTitle: "SMW - Leading Technologies in Magnesium, Titanium and Aluminium",
+        skipLink: "Skip to content",
+        ariaLabels: {
+            languageSwitcher: "Language selection",
+            mainMenu: "Main menu",
+            heroSlider: "Hero slider",
+            prevSlide: "Previous slide",
+            nextSlide: "Next slide",
+            toggleMenu: "Toggle menu",
+            footerMenu: "Footer menu",
+            linkedIn: "LinkedIn",
+            goToSlide: "Go to slide"
+        },
+        altTexts: {
+            logo: "SMW Logo",
+            automotive: "Automotive industry",
+            aerospace: "Aerospace industry",
+            industrial: "Industrial",
+            sports: "Sports industry",
+            rawMaterial1: "Raw Material 1",
+            rawMaterial2: "Raw Material 2",
+            rawMaterial3: "Raw Material 3",
+            rawMaterial4: "Raw Material 4",
+            forging1: "Forging 1",
+            forging2: "Forging 2",
+            forging3: "Forging 3",
+            forging4: "Forging 4",
+            extrusion1: "Extrusion 1",
+            extrusion2: "Extrusion 2",
+            extrusion3: "Extrusion 3",
+            extrusion4: "Extrusion 4",
+            munich: "Munich"
         }
     },
     de: {
@@ -195,6 +261,39 @@ const translations = {
         footer: {
             imprint: "Impressum",
             legal: "Rechtlicher Hinweis"
+        },
+        pageTitle: "SMW - Führende Technologien in Magnesium, Titan und Aluminium",
+        skipLink: "Zum Inhalt springen",
+        ariaLabels: {
+            languageSwitcher: "Sprachauswahl",
+            mainMenu: "Hauptmenü",
+            heroSlider: "Hauptslider",
+            prevSlide: "Vorheriger Slide",
+            nextSlide: "Nächster Slide",
+            toggleMenu: "Menü umschalten",
+            footerMenu: "Fußzeilenmenü",
+            linkedIn: "LinkedIn",
+            goToSlide: "Zu Slide gehen"
+        },
+        altTexts: {
+            logo: "SMW Logo",
+            automotive: "Automobilindustrie",
+            aerospace: "Luft- und Raumfahrt",
+            industrial: "Industrie",
+            sports: "Sportindustrie",
+            rawMaterial1: "Rohmaterial 1",
+            rawMaterial2: "Rohmaterial 2",
+            rawMaterial3: "Rohmaterial 3",
+            rawMaterial4: "Rohmaterial 4",
+            forging1: "Schmieden 1",
+            forging2: "Schmieden 2",
+            forging3: "Schmieden 3",
+            forging4: "Schmieden 4",
+            extrusion1: "Extrusion 1",
+            extrusion2: "Extrusion 2",
+            extrusion3: "Extrusion 3",
+            extrusion4: "Extrusion 4",
+            munich: "München"
         }
     },
     fr: {
@@ -261,6 +360,39 @@ const translations = {
         footer: {
             imprint: "Mentions légales",
             legal: "Avertissement juridique"
+        },
+        pageTitle: "SMW - Technologies de pointe en magnésium, titane et aluminium",
+        skipLink: "Aller au contenu",
+        ariaLabels: {
+            languageSwitcher: "Sélection de la langue",
+            mainMenu: "Menu principal",
+            heroSlider: "Curseur principal",
+            prevSlide: "Slide précédent",
+            nextSlide: "Slide suivant",
+            toggleMenu: "Basculer le menu",
+            footerMenu: "Menu du pied de page",
+            linkedIn: "LinkedIn",
+            goToSlide: "Aller au slide"
+        },
+        altTexts: {
+            logo: "SMW Logo",
+            automotive: "Industrie automobile",
+            aerospace: "Industrie aérospatiale",
+            industrial: "Industrie",
+            sports: "Industrie sportive",
+            rawMaterial1: "Matière première 1",
+            rawMaterial2: "Matière première 2",
+            rawMaterial3: "Matière première 3",
+            rawMaterial4: "Matière première 4",
+            forging1: "Forgeage 1",
+            forging2: "Forgeage 2",
+            forging3: "Forgeage 3",
+            forging4: "Forgeage 4",
+            extrusion1: "Extrusion 1",
+            extrusion2: "Extrusion 2",
+            extrusion3: "Extrusion 3",
+            extrusion4: "Extrusion 4",
+            munich: "Munich"
         }
     },
     es: {
@@ -327,6 +459,39 @@ const translations = {
         footer: {
             imprint: "Imprimir",
             legal: "Aviso legal"
+        },
+        pageTitle: "SMW - Tecnologías líderes en magnesio, titanio y aluminio",
+        skipLink: "Saltar al contenido",
+        ariaLabels: {
+            languageSwitcher: "Selección de idioma",
+            mainMenu: "Menú principal",
+            heroSlider: "Control deslizante principal",
+            prevSlide: "Slide anterior",
+            nextSlide: "Slide siguiente",
+            toggleMenu: "Alternar menú",
+            footerMenu: "Menú del pie de página",
+            linkedIn: "LinkedIn",
+            goToSlide: "Ir al slide"
+        },
+        altTexts: {
+            logo: "SMW Logo",
+            automotive: "Industria automotriz",
+            aerospace: "Industria aeroespacial",
+            industrial: "Industrial",
+            sports: "Industria deportiva",
+            rawMaterial1: "Materia prima 1",
+            rawMaterial2: "Materia prima 2",
+            rawMaterial3: "Materia prima 3",
+            rawMaterial4: "Materia prima 4",
+            forging1: "Forja 1",
+            forging2: "Forja 2",
+            forging3: "Forja 3",
+            forging4: "Forja 4",
+            extrusion1: "Extrusión 1",
+            extrusion2: "Extrusión 2",
+            extrusion3: "Extrusión 3",
+            extrusion4: "Extrusión 4",
+            munich: "Múnich"
         }
     },
     it: {
@@ -393,6 +558,39 @@ const translations = {
         footer: {
             imprint: "Stampa",
             legal: "Disclaimer legale"
+        },
+        pageTitle: "SMW - Tecnologie leader in magnesio, titanio e alluminio",
+        skipLink: "Salta al contenuto",
+        ariaLabels: {
+            languageSwitcher: "Selezione della lingua",
+            mainMenu: "Menu principale",
+            heroSlider: "Slider principale",
+            prevSlide: "Slide precedente",
+            nextSlide: "Slide successivo",
+            toggleMenu: "Attiva/disattiva menu",
+            footerMenu: "Menu footer",
+            linkedIn: "LinkedIn",
+            goToSlide: "Vai allo slide"
+        },
+        altTexts: {
+            logo: "SMW Logo",
+            automotive: "Industria automobilistica",
+            aerospace: "Industria aerospaziale",
+            industrial: "Industriale",
+            sports: "Industria sportiva",
+            rawMaterial1: "Materia prima 1",
+            rawMaterial2: "Materia prima 2",
+            rawMaterial3: "Materia prima 3",
+            rawMaterial4: "Materia prima 4",
+            forging1: "Forgiatura 1",
+            forging2: "Forgiatura 2",
+            forging3: "Forgiatura 3",
+            forging4: "Forgiatura 4",
+            extrusion1: "Estrusione 1",
+            extrusion2: "Estrusione 2",
+            extrusion3: "Estrusione 3",
+            extrusion4: "Estrusione 4",
+            munich: "Monaco"
         }
     }
 };
