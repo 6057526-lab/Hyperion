@@ -9,32 +9,32 @@ const translations = {
             contact: "Контакты"
         },
         hero: {
-            title: "РњР« РџР Р•Р”РћРЎРўРђР’Р›РЇР•Рњ Р’Р•Р”РЈР©РР• РўР•РҐРќРћР›РћР“РР Р’ РћР‘Р›РђРЎРўР РњРђР“РќРРЇ, РўРРўРђРќРђ Р РђР›Р®РњРРќРРЇ.",
+            title: "МЫ ПРЕДОСТАВЛЯЕМ ВЕДУЩИЕ ТЕХНОЛОГИИ В ОБЛАСТИ МАГНИЯ, ТИТАНА И АЛЮМИНИЯ.",
             learnMore: "УЗНАТЬ БОЛЬШЕ"
         },
         marketsegments: {
             title: "РЫНОЧНЫЕ СЕГМЕНТЫ",
-            subtitle: "РџР Р•Р”РћРЎРўРђР’Р›Р•РќРР• РЈР›Р¬РўР РђР›Р•Р“РљРРҐ РљРћРњРџРћРќР•РќРўРћР’ РќРђРЁРРњ РљР›РР•РќРўРђРњ РџРћ Р’РЎР•РњРЈ РњРР РЈ.",
-            automotive: "РђР’РўРћРњРћР‘РР›Р¬РќРђРЇ РџР РћРњР«РЁР›Р•РќРќРћРЎРўР¬",
-            aerospace: "РђР­Р РћРљРћРЎРњРР§Р•РЎРљРђРЇ РћРўР РђРЎР›Р¬",
+            subtitle: "ПРЕДОСТАВЛЕНИЕ УЛЬТРАЛЕГКИХ КОМПОНЕНТОВ НАШИМ КЛИЕНТАМ ПО ВСЕМУ МИРУ.",
+            automotive: "АВТОМОБИЛЬНАЯ ПРОМЫШЛЕННОСТЬ",
+            aerospace: "АЭРОКОСМИЧЕСКАЯ ОТРАСЛЬ",
             industrial: "ПРОМЫШЛЕННОСТЬ",
-            sports: "РЎРџРћР РўРР’РќРђРЇ РРќР”РЈРЎРўР РРЇ",
+            sports: "СПОРТИВНАЯ ИНДУСТРИЯ",
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
         lifecycle: {
             title: "РџРћР›РќР«Р™ Р–РР—РќР•РќРќР«Р™ Р¦РРљР› РџР РћР”РЈРљРўРђ",
-            subtitle: "РЈРЎРўРћР™Р§РР’РћР• РЎРћР—Р”РђРќРР• Р¦Р•РќРќРћРЎРўР",
+            subtitle: "УСТОЙЧИВОЕ СОЗДАНИЕ ЦЕННОСТИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            research: "РРЎРЎР›Р•Р”РћР’РђРќРРЇ Р Р РђР—Р РђР‘РћРўРљР",
-            engineering: "РРќР–РРќРР РРќР“ Р РџР РћРўРћРўРРџРР РћР’РђРќРР•",
+            research: "ИССЛЕДОВАНИЯ И РАЗРАБОТКИ",
+            engineering: "ИНЖИНИРИНГ И ПРОТОТИПИРОВАНИЕ",
             researchText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             engineeringText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         capabilities: {
             title: "Р’РћР—РњРћР–РќРћРЎРўР",
-            subtitle: "РџР•Р Р•Р”РћР’Р«Р• РњРђРўР•Р РРђР›Р« Р РўР•РҐРќРћР›РћР“РР",
+            subtitle: "ПЕРЕДОВЫЕ МАТЕРИАЛЫ И ТЕХНОЛОГИИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-            rawMaterial: "Raw Material",
+            rawMaterial: "СЫРЬЕ",
             rawMaterialText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             forging: "Ковка",
             extrusion: "Экструзия",
@@ -43,15 +43,15 @@ const translations = {
         },
         wheels: {
             title: "РљРћР’РђРќР«Р• РђР›Р®РњРРќРР•Р’Р«Р• Р РњРђР“РќРР•Р’Р«Р• РљРћР›Р•РЎРђ",
-            subtitle: "РљРћРњРџРћРќР•РќРўР« РњРР РћР’РћР“Рћ РЈР РћР’РќРЇ Р”Р›РЇ РРќРќРћР’РђРўРћР РћР’ РћРўР РђРЎР›Р",
+            subtitle: "КОМПОНЕНТЫ МИРОВОГО УРОВНЯ ДЛЯ ИННОВАТОРОВ ОТРАСЛИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         },
         company: {
             title: "Рћ РљРћРњРџРђРќРР",
-            subtitle: "Р›РР”Р•Р  Р Р«РќРљРђ, РџР•Р Р•РћРЎРњР«РЎР›Р•РќРќР«Р™",
+            subtitle: "ЛИДЕР РЫНКА, ПЕРЕОСМЫСЛЕННЫЙ",
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            contactTitle: "РњР« Р‘РЈР”Р•Рњ Р РђР”Р« РЎР’РЇР—РђРўР¬РЎРЇ РЎ Р’РђРњР.",
+            contactTitle: "МЫ БУДЕМ РАДЫ СВЯЗАТЬСЯ С ВАМИ.",
             general: "Общие вопросы:",
             sales: "Продажи:",
             career: "Карьера:",
@@ -109,32 +109,32 @@ const translations = {
             contact: "Contact"
         },
         hero: {
-            title: "WE PROVIDE LEADING CAPABILITIES IN MAGNESIUM, TITANIUM AND ALUMINIUM.",
+            title: "МЫ ПРЕДОСТАВЛЯЕМ ВЕДУЩИЕ ТЕХНОЛОГИИ В ОБЛАСТИ МАГНИЯ, ТИТАНА И АЛЮМИНИЯ.",
             learnMore: "LEARN MORE"
         },
         marketsegments: {
             title: "MARKETSEGMENTS",
-            subtitle: "PROVIDING ULTRALIGHT COMPONENTS TO OUR CUSTOMERS AROUND THE WORLD.",
-            automotive: "AUTOMOTIVE",
-            aerospace: "AEROSPACE",
+            subtitle: "ПРЕДОСТАВЛЕНИЕ УЛЬТРАЛЕГКИХ КОМПОНЕНТОВ НАШИМ КЛИЕНТАМ ПО ВСЕМУ МИРУ.",
+            automotive: "АВТОМОБИЛЬНАЯ ПРОМЫШЛЕННОСТЬ",
+            aerospace: "АЭРОКОСМИЧЕСКАЯ ОТРАСЛЬ",
             industrial: "INDUSTRIAL",
-            sports: "SPORTS INDUSTRY",
+            sports: "СПОРТИВНАЯ ИНДУСТРИЯ",
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
         lifecycle: {
             title: "FULL PRODUCT LIFECYCLE",
-            subtitle: "SUSTAINABLE VALUE CREATION",
+            subtitle: "УСТОЙЧИВОЕ СОЗДАНИЕ ЦЕННОСТИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            research: "RESEARCH & DEVELOPMENT",
-            engineering: "ENGINEERING & PROTOTYPING",
+            research: "ИССЛЕДОВАНИЯ И РАЗРАБОТКИ",
+            engineering: "ИНЖИНИРИНГ И ПРОТОТИПИРОВАНИЕ",
             researchText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             engineeringText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         capabilities: {
             title: "CAPABILITIES",
-            subtitle: "ADVANCED MATERIALS AND TECHNOLOGIES.",
+            subtitle: "ПЕРЕДОВЫЕ МАТЕРИАЛЫ И ТЕХНОЛОГИИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-            rawMaterial: "Raw Material",
+            rawMaterial: "СЫРЬЕ",
             rawMaterialText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             forging: "Forging",
             extrusion: "Extrusion",
@@ -143,15 +143,15 @@ const translations = {
         },
         wheels: {
             title: "FORGED ALUMINIUM AND MAGNESIUM WHEELS",
-            subtitle: "WORLD RECORD COMPONENTS FOR INDUSTRY INNOVATORS",
+            subtitle: "КОМПОНЕНТЫ МИРОВОГО УРОВНЯ ДЛЯ ИННОВАТОРОВ ОТРАСЛИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         },
         company: {
             title: "COMPANY",
-            subtitle: "A MARKETLEADER RESHAPED.",
+            subtitle: "ЛИДЕР РЫНКА, ПЕРЕОСМЫСЛЕННЫЙ",
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            contactTitle: "WE ARE LOOKING FORWARD TO GET IN TOUCH WITH YOU.",
+            contactTitle: "МЫ БУДЕМ РАДЫ СВЯЗАТЬСЯ С ВАМИ.",
             general: "General Inquires:",
             sales: "Sales:",
             career: "Career:",
@@ -209,32 +209,32 @@ const translations = {
             contact: "Kontakt"
         },
         hero: {
-            title: "WIR BIETEN FГњHRENDE FГ„HIGKEITEN IN MAGNESIUM, TITAN UND ALUMINIUM.",
+            title: "МЫ ПРЕДОСТАВЛЯЕМ ВЕДУЩИЕ ТЕХНОЛОГИИ В ОБЛАСТИ МАГНИЯ, ТИТАНА И АЛЮМИНИЯ.",
             learnMore: "MEHR ERFAHREN"
         },
         marketsegments: {
             title: "MARKTSEGMENTE",
-            subtitle: "BEREITSTELLUNG VON ULTRALEICHTEN KOMPONENTEN FГњR UNSERE KUNDEN WELTWEIT.",
-            automotive: "AUTOMOBIL",
-            aerospace: "LUFT- UND RAUMFAHRT",
+            subtitle: "ПРЕДОСТАВЛЕНИЕ УЛЬТРАЛЕГКИХ КОМПОНЕНТОВ НАШИМ КЛИЕНТАМ ПО ВСЕМУ МИРУ.",
+            automotive: "АВТОМОБИЛЬНАЯ ПРОМЫШЛЕННОСТЬ",
+            aerospace: "АЭРОКОСМИЧЕСКАЯ ОТРАСЛЬ",
             industrial: "INDUSTRIE",
-            sports: "SPORTINDUSTRIE",
+            sports: "СПОРТИВНАЯ ИНДУСТРИЯ",
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
         lifecycle: {
             title: "VOLLSTГ„NDIGER PRODUKTLEBENSZYKLUS",
-            subtitle: "NACHHALTIGE WERTSCHГ–PFUNG",
+            subtitle: "УСТОЙЧИВОЕ СОЗДАНИЕ ЦЕННОСТИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            research: "FORSCHUNG & ENTWICKLUNG",
-            engineering: "INGENIEURWESEN & PROTOTYPEN",
+            research: "ИССЛЕДОВАНИЯ И РАЗРАБОТКИ",
+            engineering: "ИНЖИНИРИНГ И ПРОТОТИПИРОВАНИЕ",
             researchText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             engineeringText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         capabilities: {
             title: "FГ„HIGKEITEN",
-            subtitle: "FORTGESCHRITTENE MATERIALIEN UND TECHNOLOGIEN.",
+            subtitle: "ПЕРЕДОВЫЕ МАТЕРИАЛЫ И ТЕХНОЛОГИИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-            rawMaterial: "Raw Material",
+            rawMaterial: "СЫРЬЕ",
             rawMaterialText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             forging: "Schmieden",
             extrusion: "Extrusion",
@@ -243,15 +243,15 @@ const translations = {
         },
         wheels: {
             title: "GESCHMIEDETE ALUMINIUM- UND MAGNESIUMRГ„DER",
-            subtitle: "WELTREKORD-KOMPONENTEN FГњR BRANCHENINNOVATOREN",
+            subtitle: "КОМПОНЕНТЫ МИРОВОГО УРОВНЯ ДЛЯ ИННОВАТОРОВ ОТРАСЛИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         },
         company: {
             title: "UNTERNEHMEN",
-            subtitle: "EIN MARKTFГњHRER NEU GEFORMT.",
+            subtitle: "ЛИДЕР РЫНКА, ПЕРЕОСМЫСЛЕННЫЙ",
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            contactTitle: "WIR FREUEN UNS AUF IHRE KONTAKTUFNAHME.",
+            contactTitle: "МЫ БУДЕМ РАДЫ СВЯЗАТЬСЯ С ВАМИ.",
             general: "Allgemeine Anfragen:",
             sales: "Verkauf:",
             career: "Karriere:",
@@ -309,32 +309,32 @@ const translations = {
             contact: "Contact"
         },
         hero: {
-            title: "NOUS FOURNISSONS DES CAPACITГ‰S DE POINTE EN MAGNГ‰SIUM, TITANE ET ALUMINIUM.",
+            title: "МЫ ПРЕДОСТАВЛЯЕМ ВЕДУЩИЕ ТЕХНОЛОГИИ В ОБЛАСТИ МАГНИЯ, ТИТАНА И АЛЮМИНИЯ.",
             learnMore: "EN SAVOIR PLUS"
         },
         marketsegments: {
             title: "SEGMENTS DE MARCHГ‰",
-            subtitle: "FOURNISSANT DES COMPOSANTS ULTRA-LГ‰GERS ГЂ NOS CLIENTS DANS LE MONDE ENTIER.",
-            automotive: "AUTOMOBILE",
-            aerospace: "AГ‰ROSPATIAL",
+            subtitle: "ПРЕДОСТАВЛЕНИЕ УЛЬТРАЛЕГКИХ КОМПОНЕНТОВ НАШИМ КЛИЕНТАМ ПО ВСЕМУ МИРУ.",
+            automotive: "АВТОМОБИЛЬНАЯ ПРОМЫШЛЕННОСТЬ",
+            aerospace: "АЭРОКОСМИЧЕСКАЯ ОТРАСЛЬ",
             industrial: "INDUSTRIEL",
-            sports: "INDUSTRIE SPORTIVE",
+            sports: "СПОРТИВНАЯ ИНДУСТРИЯ",
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
         lifecycle: {
             title: "CYCLE DE VIE COMPLET DU PRODUIT",
-            subtitle: "CRГ‰ATION DE VALEUR DURABLE",
+            subtitle: "УСТОЙЧИВОЕ СОЗДАНИЕ ЦЕННОСТИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            research: "RECHERCHE & DГ‰VELOPPEMENT",
-            engineering: "INGГ‰NIERIE & PROTOTYPAGE",
+            research: "ИССЛЕДОВАНИЯ И РАЗРАБОТКИ",
+            engineering: "ИНЖИНИРИНГ И ПРОТОТИПИРОВАНИЕ",
             researchText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             engineeringText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         capabilities: {
             title: "CAPACITГ‰S",
-            subtitle: "MATГ‰RIAUX ET TECHNOLOGIES AVANCГ‰S.",
+            subtitle: "ПЕРЕДОВЫЕ МАТЕРИАЛЫ И ТЕХНОЛОГИИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-            rawMaterial: "Raw Material",
+            rawMaterial: "СЫРЬЕ",
             rawMaterialText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             forging: "Forgeage",
             extrusion: "Extrusion",
@@ -343,15 +343,15 @@ const translations = {
         },
         wheels: {
             title: "ROUES EN ALUMINIUM ET MAGNГ‰SIUM FORGГ‰ES",
-            subtitle: "COMPOSANTS DE NIVEAU MONDIAL POUR LES INNOVATEURS DE L'INDUSTRIE",
+            subtitle: "КОМПОНЕНТЫ МИРОВОГО УРОВНЯ ДЛЯ ИННОВАТОРОВ ОТРАСЛИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         },
         company: {
             title: "ENTREPRISE",
-            subtitle: "UN LEADER DU MARCHГ‰ REFORMГ‰.",
+            subtitle: "ЛИДЕР РЫНКА, ПЕРЕОСМЫСЛЕННЫЙ",
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            contactTitle: "NOUS SOMMES IMPATIENTS D'ГЉTRE EN CONTACT AVEC VOUS.",
+            contactTitle: "МЫ БУДЕМ РАДЫ СВЯЗАТЬСЯ С ВАМИ.",
             general: "Demandes gГ©nГ©rales:",
             sales: "Ventes:",
             career: "CarriГЁre:",
@@ -409,32 +409,32 @@ const translations = {
             contact: "Contacto"
         },
         hero: {
-            title: "PROPORCIONAMOS CAPACIDADES LГЌDERES EN MAGNESIO, TITANIO Y ALUMINIO.",
+            title: "МЫ ПРЕДОСТАВЛЯЕМ ВЕДУЩИЕ ТЕХНОЛОГИИ В ОБЛАСТИ МАГНИЯ, ТИТАНА И АЛЮМИНИЯ.",
             learnMore: "SABER MГЃS"
         },
         marketsegments: {
             title: "SEGMENTOS DE MERCADO",
-            subtitle: "PROPORCIONANDO COMPONENTES ULTRA LIGEROS A NUESTROS CLIENTES EN TODO EL MUNDO.",
-            automotive: "AUTOMOTRIZ",
-            aerospace: "AEROESPACIAL",
+            subtitle: "ПРЕДОСТАВЛЕНИЕ УЛЬТРАЛЕГКИХ КОМПОНЕНТОВ НАШИМ КЛИЕНТАМ ПО ВСЕМУ МИРУ.",
+            automotive: "АВТОМОБИЛЬНАЯ ПРОМЫШЛЕННОСТЬ",
+            aerospace: "АЭРОКОСМИЧЕСКАЯ ОТРАСЛЬ",
             industrial: "INDUSTRIAL",
-            sports: "INDUSTRIA DEPORTIVA",
+            sports: "СПОРТИВНАЯ ИНДУСТРИЯ",
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
         lifecycle: {
             title: "CICLO DE VIDA COMPLETO DEL PRODUCTO",
-            subtitle: "CREACIГ“N DE VALOR SOSTENIBLE",
+            subtitle: "УСТОЙЧИВОЕ СОЗДАНИЕ ЦЕННОСТИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            research: "INVESTIGACIГ“N Y DESARROLLO",
-            engineering: "INGENIERГЌA Y PROTOTIPADO",
+            research: "ИССЛЕДОВАНИЯ И РАЗРАБОТКИ",
+            engineering: "ИНЖИНИРИНГ И ПРОТОТИПИРОВАНИЕ",
             researchText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             engineeringText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         capabilities: {
             title: "CAPACIDADES",
-            subtitle: "MATERIALES Y TECNOLOGГЌAS AVANZADAS.",
+            subtitle: "ПЕРЕДОВЫЕ МАТЕРИАЛЫ И ТЕХНОЛОГИИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-            rawMaterial: "Raw Material",
+            rawMaterial: "СЫРЬЕ",
             rawMaterialText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             forging: "Forja",
             extrusion: "ExtrusiГіn",
@@ -443,15 +443,15 @@ const translations = {
         },
         wheels: {
             title: "RUEDAS FORJADAS DE ALUMINIO Y MAGNESIO",
-            subtitle: "COMPONENTES DE RГ‰CORD MUNDIAL PARA INNOVADORES DE LA INDUSTRIA",
+            subtitle: "КОМПОНЕНТЫ МИРОВОГО УРОВНЯ ДЛЯ ИННОВАТОРОВ ОТРАСЛИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         },
         company: {
             title: "EMPRESA",
-            subtitle: "UN LГЌDER DEL MERCADO REIMAGINADO.",
+            subtitle: "ЛИДЕР РЫНКА, ПЕРЕОСМЫСЛЕННЫЙ",
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            contactTitle: "ESTAMOS ANSIOSOS DE PONERNOS EN CONTACTO CON USTED.",
+            contactTitle: "МЫ БУДЕМ РАДЫ СВЯЗАТЬСЯ С ВАМИ.",
             general: "Consultas generales:",
             sales: "Ventas:",
             career: "Carrera:",
@@ -509,32 +509,32 @@ const translations = {
             contact: "Contatto"
         },
         hero: {
-            title: "FORNIAMO CAPACITГЂ LEADER IN MAGNESIO, TITANIO E ALLUMINIO.",
+            title: "МЫ ПРЕДОСТАВЛЯЕМ ВЕДУЩИЕ ТЕХНОЛОГИИ В ОБЛАСТИ МАГНИЯ, ТИТАНА И АЛЮМИНИЯ.",
             learnMore: "SCOPRI DI PIГ™"
         },
         marketsegments: {
             title: "SEGMENTI DI MERCATO",
-            subtitle: "FORNENDO COMPONENTI ULTRA LEGGERI AI NOSTRI CLIENTI IN TUTTO IL MONDO.",
-            automotive: "AUTOMOTIVE",
-            aerospace: "AEROSPAZIALE",
+            subtitle: "ПРЕДОСТАВЛЕНИЕ УЛЬТРАЛЕГКИХ КОМПОНЕНТОВ НАШИМ КЛИЕНТАМ ПО ВСЕМУ МИРУ.",
+            automotive: "АВТОМОБИЛЬНАЯ ПРОМЫШЛЕННОСТЬ",
+            aerospace: "АЭРОКОСМИЧЕСКАЯ ОТРАСЛЬ",
             industrial: "INDUSTRIALE",
-            sports: "INDUSTRIA SPORTIVA",
+            sports: "СПОРТИВНАЯ ИНДУСТРИЯ",
             description: "Lorem ipsum dolor sit amet, te has solet postea. Voluptua quaestio dissentias has ex, no eum aliquid tibique petentium, agam mucius"
         },
         lifecycle: {
             title: "CICLO DI VITA COMPLETO DEL PRODOTTO",
-            subtitle: "CREAZIONE DI VALORE SOSTENIBILE",
+            subtitle: "УСТОЙЧИВОЕ СОЗДАНИЕ ЦЕННОСТИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            research: "RICERCA & SVILUPPO",
-            engineering: "INGEGNERIA & PROTOTIPAZIONE",
+            research: "ИССЛЕДОВАНИЯ И РАЗРАБОТКИ",
+            engineering: "ИНЖИНИРИНГ И ПРОТОТИПИРОВАНИЕ",
             researchText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             engineeringText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         },
         capabilities: {
             title: "CAPACITГЂ",
-            subtitle: "MATERIALI E TECNOLOGIE AVANZATE.",
+            subtitle: "ПЕРЕДОВЫЕ МАТЕРИАЛЫ И ТЕХНОЛОГИИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-            rawMaterial: "Raw Material",
+            rawMaterial: "СЫРЬЕ",
             rawMaterialText: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             forging: "Forgiatura",
             extrusion: "Estrusione",
@@ -543,15 +543,15 @@ const translations = {
         },
         wheels: {
             title: "RUOTE FORGIATE IN ALLUMINIO E MAGNESIO",
-            subtitle: "COMPONENTI DA RECORD MONDIALE PER INNOVATORI DEL SETTORE",
+            subtitle: "КОМПОНЕНТЫ МИРОВОГО УРОВНЯ ДЛЯ ИННОВАТОРОВ ОТРАСЛИ",
             description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         },
         company: {
             title: "AZIENDA",
-            subtitle: "UN LEADER DI MERCATO RIFORMATO.",
+            subtitle: "ЛИДЕР РЫНКА, ПЕРЕОСМЫСЛЕННЫЙ",
             text1: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             text2: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            contactTitle: "SAREMMO LIETI DI METTERCI IN CONTATTO CON VOI.",
+            contactTitle: "МЫ БУДЕМ РАДЫ СВЯЗАТЬСЯ С ВАМИ.",
             general: "Richieste generali:",
             sales: "Vendite:",
             career: "Carriera:",
