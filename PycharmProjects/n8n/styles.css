@@ -92,33 +92,6 @@ body {
     color: var(--hover-color);
 }
 
-.language-switcher {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.lang-btn {
-    padding: 5px 10px;
-    text-decoration: none;
-    color: var(--text-color);
-    border: 1px solid transparent;
-    transition: var(--transition);
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.lang-btn.active {
-    font-weight: bold;
-    border-bottom: 2px solid var(--accent-color);
-}
-
-.lang-btn:hover {
-    color: var(--hover-color);
-}
-
 .menu-toggle {
     display: none;
     background: none;
@@ -746,10 +719,6 @@ body {
     .main-nav a {
         display: block;
         padding: 15px 20px;
-    }
-
-    .language-switcher {
-        display: none;
     }
 
     .slide-content h2 {

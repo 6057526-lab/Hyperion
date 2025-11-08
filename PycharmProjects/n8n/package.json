@@ -4,7 +4,7 @@
   "description": "Multilingual SMW-inspired website",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -l 3000"
+    "start": "npx serve -s . -l 4173"
   },
   "keywords": [
     "static",
@@ -20,3 +20,12 @@
     "jsdom": "^27.1.0"
   }
 }
+
+
+
+
+
+
+
+
+

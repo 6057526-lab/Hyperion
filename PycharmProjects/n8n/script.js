@@ -1,110 +1,3 @@
-// Language System
-let currentLang = localStorage.getItem('language') || 'ru';
-
-// Function to get translation value by key path
-function getTranslation(key, lang = currentLang) {
-    const dictionary = (typeof window !== 'undefined' && window.translations)
-        ? window.translations
-        : (typeof translations !== 'undefined' ? translations : {});
-
-    const langPack = dictionary?.[lang];
-    if (!langPack) {
-        console.warn(`Перевод для языка "${lang}" не найден. Ключ: ${key}`);
-        return key;
-    }
-
-    const keys = key.split('.');
-    let value = langPack;
-
-    for (const k of keys) {
-        if (value && typeof value === 'object' && k in value) {
-            value = value[k];
-        } else {
-            console.warn(`Не удалось найти перевод по ключу "${key}" для языка "${lang}".`);
-            return key; // Return key if translation not found
-        }
-    }
-
-    if (typeof value === 'undefined' || value === null) {
-        console.warn(`Пустое значение перевода по ключу "${key}" для языка "${lang}".`);
-        return key;
-    }
-
-    return value;
-}
-
-// Function to update page language
-function updateLanguage(lang) {
-    currentLang = lang;
-    localStorage.setItem('language', lang);
-    
-    // Update all elements with data-translate attribute
-    document.querySelectorAll('[data-translate]').forEach(element => {
-        const key = element.getAttribute('data-translate');
-        const translation = getTranslation(key, lang);
-        
-        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-            element.placeholder = translation;
-        } else if (element.tagName === 'IMG') {
-            element.alt = translation;
-        } else {
-            // Check if element has direct children with data-translate
-            const directTranslatableChildren = Array.from(element.children).filter(child => 
-                child.hasAttribute('data-translate')
-            );
-            
-            // For heading elements (H1-H6), paragraphs, and spans - always update if they have data-translate
-            // They typically don't have translatable children, or if they do, we want to update the parent
-            if (element.tagName === 'H1' || element.tagName === 'H2' || element.tagName === 'H3' || 
-                element.tagName === 'H4' || element.tagName === 'H5' || element.tagName === 'H6' ||
-                element.tagName === 'P') {
-                // For these elements, always update textContent (it will replace children, but that's OK)
-                element.textContent = translation;
-            } else if (directTranslatableChildren.length === 0) {
-                // No direct translatable children, safe to update textContent
-                element.textContent = translation;
-            } else if (element.tagName === 'SPAN') {
-                // For spans with translatable children, update text but keep children
-                const textNodes = Array.from(element.childNodes).filter(node => 
-                    node.nodeType === Node.TEXT_NODE
-                );
-                textNodes.forEach(node => node.remove());
-                if (element.firstChild) {
-                    element.insertBefore(document.createTextNode(translation), element.firstChild);
-                } else {
-                    element.textContent = translation;
-                }
-            }
-            // For other elements (like buttons with spans inside), don't update - let children handle it
-        }
-    });
-    
-    // Update active language button
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        if (btn.getAttribute('data-lang') === lang) {
-            btn.classList.add('active');
-            btn.setAttribute('aria-current', 'page');
-        } else {
-            btn.classList.remove('active');
-            btn.removeAttribute('aria-current');
-        }
-    });
-    
-    // Update document language attribute
-    document.documentElement.lang = lang;
-}
-
-// Initialize language on page load
-updateLanguage(currentLang);
-
-// Language switcher event listeners
-document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const lang = btn.getAttribute('data-lang');
-        updateLanguage(lang);
-    });
-});
-
 // Mobile Menu Toggle
 const menuToggle = document.querySelector('.menu-toggle');
 const mainNav = document.querySelector('.main-nav');
@@ -139,7 +32,7 @@ class SimpleCarousel {
             this.slides.forEach((_, index) => {
                 const dot = document.createElement('button');
                 dot.className = index === 0 ? 'active' : '';
-                dot.setAttribute('aria-label', `Перейти к слайду ${index + 1}`);
+                dot.setAttribute('aria-label', `Go to slide ${index + 1}`);
                 dot.addEventListener('click', () => this.goToSlide(index));
                 this.pagination.appendChild(dot);
             });
