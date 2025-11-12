@@ -10,8 +10,6 @@ const nextConfig = {
       },
     ],
   },
-  // Для работы на Railway
-  output: 'standalone',
 }
 
 module.exports = nextConfig
