@@ -1,0 +1,547 @@
+/* Global styles */
+.page {
+  --primary: #000;
+  --secondary: #666;
+  --accent: #007bff;
+  --background: #fff;
+  --muted: #f8f9fa;
+  --border: #e9ecef;
+  --text: #212529;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 70px; /* Account for fixed header */
+}
+
+/* Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.headerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.logoText {
+  background: linear-gradient(135deg, var(--accent), #0056b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.desktopNav {
+  display: flex;
+  gap: 32px;
+}
+
+.navLink {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  padding: 8px 0;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover,
+.navLink.active {
+  color: var(--accent);
+}
+
+.navLink.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+.mobileMenuButton {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.hamburgerLine {
+  width: 24px;
+  height: 2px;
+  background: var(--primary);
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+.mobileNav {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0;
+}
+
+.mobileNavLink {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary);
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 0;
+  transition: background 0.3s ease;
+}
+
+.mobileNavLink:hover,
+.mobileNavLink.active {
+  background: var(--muted);
+  color: var(--accent);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .headerContainer {
+    padding: 0 20px;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .mobileMenuButton {
+    display: flex;
+  }
+
+  .mobileNav {
+    display: block;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  background: var(--primary);
+  color: white;
+  padding: 120px 40px;
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.heroInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.tag {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  max-width: 800px;
+}
+
+.subheadline {
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  opacity: 0.9;
+  max-width: 700px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.ctaRow {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.primaryButton,
+.secondaryButton,
+.calloutButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.primaryButton {
+  background: var(--accent);
+  color: white;
+}
+
+.primaryButton:hover {
+  background: #0056b3;
+}
+
+.secondaryButton {
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+.secondaryButton:hover {
+  background: white;
+  color: var(--primary);
+}
+
+.calloutButton {
+  background: white;
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.calloutButton:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.heroAside {
+  max-width: 400px;
+  margin-left: 80px;
+}
+
+.secondaryDescription {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.featureItem {
+  padding: 8px 0;
+  font-weight: 500;
+}
+
+.featureItem:before {
+  content: "•";
+  color: var(--accent);
+  margin-right: 12px;
+}
+
+/* Section Styles */
+.section {
+  padding: 100px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sectionHeading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 16px 0 24px 0;
+}
+
+.sectionSubheading {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Market Segments */
+.marketGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.marketCard {
+  background: var(--muted);
+  padding: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.cardDescription {
+  color: var(--secondary);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.cardList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cardList li {
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.cardList li:before {
+  content: "•";
+  color: var(--accent);
+  margin-right: 8px;
+}
+
+/* Lifecycle */
+.lifecycleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.lifecycleItem {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.lifecycleTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.lifecycleText {
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+/* Capabilities */
+.capabilitiesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+}
+
+.capability {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.capabilityTitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.capabilityDescription {
+  color: var(--secondary);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.capabilityDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.capabilitySubheading {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--primary);
+}
+
+.detailList,
+.noteList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detailList li,
+.noteList li {
+  padding: 4px 0;
+  color: var(--secondary);
+}
+
+.detailList li:before,
+.noteList li:before {
+  content: "•";
+  color: var(--accent);
+  margin-right: 8px;
+}
+
+/* Wheels Section */
+.wheelSection {
+  background: var(--muted);
+  text-align: center;
+}
+
+.wheelSection .sectionHeader {
+  margin-bottom: 40px;
+}
+
+.detailList {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Company Section */
+.companyContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.companyContent p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+  color: var(--secondary);
+}
+
+.companyActions {
+  background: var(--muted);
+  padding: 40px;
+  border-radius: 8px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.muted {
+  color: var(--secondary);
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* Contact Section */
+.contactSection {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+}
+
+.contactSection .sectionHeading {
+  color: white;
+}
+
+.contactSection .sectionSubheading {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .heroAside {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .ctaRow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline {
+    font-size: 32px;
+  }
+
+  .subheadline {
+    font-size: 20px;
+  }
+
+  .section {
+    padding: 60px 20px;
+  }
+
+  .capability {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .marketGrid,
+  .lifecycleGrid {
+    grid-template-columns: 1fr;
+  }
+}
